@@ -364,17 +364,50 @@ section h2 {
     margin-top: 20px;
 }
 
-.destination-section .card {
-    border: none;
-    padding: 8px;
-}
-
-
-
 .destination-section .card-title {
     text-align: center;
     padding: 25%;
 }
+
+
+.destination-section .card-body {
+    line-height: 25px;
+}
+
+.destination-section .card-body .location{
+    color: #aca3a3;
+    font-size: 13px;
+    margin-bottom: -1px;
+}
+
+.destination-section .card-body a{
+    color: #1a438f;
+    font-size: 16px;
+    letter-spacing: 1px;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+
+.destination-section .card-body .fas {
+    font-size: 12px;
+    color: #FFD700;
+}
+
+.destination-section .card-body p {
+    font-size: 12px;
+    color: #a19c9c;
+    margin-bottom: -1px;
+}
+
+.destination-section .card-body .price {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: -10px;
+}
+.destination-section .card-body .price span {
+    font-weight: bold;
+}
+
 
 .arrow-down {
     text-align: center;
